@@ -1,0 +1,137 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body
+{
+font-family: Helvertico, sans-serif;
+}
+
+div#page-wrap
+{
+width:100%;
+margin:0 auto;
+}
+
+a.logo_wrap
+{
+width:217px;
+margin:22px auto;
+margin-bottom:40px;
+display:block;
+}
+
+div#page-wrap ul#nav li
+{
+float:left;
+}
+
+div#page-wrap ul#nav li a
+{
+display:block;
+width:150px;
+height:25px;
+text-decoration:none;
+font-weight:bold;
+color:black;
+padding-top:10px;
+margin-bottom:0;
+}
+
+div#page-wrap ul#nav /* Menu Items */
+{
+list-style-type:none;
+text-align:center;
+width:795px;
+margin:0 auto;
+}
+
+div#page-wrap ul#nav li a:hover, div#page-wrap ul#nav li a:active
+{
+color:white;
+background-color:#a1c501;
+/* border-style: solid; /* animated menu */ 
+}
+
+div#page-wrap ul#nav li .home
+{
+color:white;
+background-color:#008bd0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+footer
+{
+background: url(images/footer.png) repeat-x bottom;
+height:250px;
+}
+
+p
+{
+font-size:20px;
+text-align:left;
+margin-left:100px;
+display:block;
+float:left;
+width:330px;
+}
+
+p a
+{
+text-align:left;
+font-size:15px;
+}
